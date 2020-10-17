@@ -1,0 +1,23 @@
+//delete
+  // $("body").delegate(".delbtn","click",function(event){
+  //   $.ajax({
+  //     url:"../action.php",
+  //     method:"POST",
+  //     data:{delete:1},
+  //     success:function(data){
+  //     //  alert(data)
+  //     }
+  //   })
+  // })
+
+  //delete- student from record
+  // if(isset($_POST['delbtn'])){
+  //   $id = $_SESSION['id'];
+  //   $query = "DELETE FROM students WHERE id = $id";
+  //   $run = mysqli_query($con,$query);
+  //   if($run){
+  //     unset($_SESSION['id']);
+  //     unset($_SESSION['uname']);
+  //     header('location: ../index.php');
+  //   }
+  // }

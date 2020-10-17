@@ -1,0 +1,251 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  background-color: #edeef0;
+  box-shadow: 0 2px grey;
+
+}
+
+.leftnav{
+  width: 25%;
+  line-height: 70px;
+  float: left;
+}
+.leftnav h1{
+    padding-left: 70px;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(14,5,150);
+    font-style: normal;
+}
+.leftnav h1:hover{
+  color: #f00d05;
+}
+
+.rightnav{
+  width: 55%;
+  height: 60px;
+  float: right;
+}
+.rightnav ul{
+  margin-left: 250px;
+}
+.rightnav ul li{
+  font-style: normal;
+  display: inline-block;
+  color: white;
+  list-style: none;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 70px;
+  margin-left: 30px;
+}
+.rightnav ul li a:link{
+  text-decoration: none;
+}
+.rightnav ul li a{
+  color: Black;
+}
+.rightnav ul li a:hover{
+  color: #f00d05;
+}
+.rightnav ul li a:active{
+  color: blue;
+}
+
+
+.text-container{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 60px;
+}
+.form h1{
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: bold;
+}
+.form h3{
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: normal;
+}
+.form hr{
+  margin-bottom: 15px;
+}
+
+.update-form{
+  margin-top: 25px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+label{
+  color: Black;
+  font-size: 23px;
+  font-style: normal;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.gender{
+  margin-left: 15px;
+  font-size: 16px;
+  width: 120px;
+}
+
+.updatebtn{
+  background-color: Green;
+  color: white;
+  font-size: 16px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+.updatebtn:hover{
+  opacity:0.8;
+}
+/* Float cancel and signup buttons and add an equal width */
+.updatebtn{
+  float: left;
+  width: 50px;
+}
+
+
+.notifications h1{
+  margin-top: 50px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.notifications p{
+  margin-top: 10px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.messages h1{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-style: 40px;
+}
+.messages p{
+  margin-top: 10px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 80px;
+}
+
+
+.delete h1{
+  margin-bottom: 10px;
+}
+.delete p{
+  margin-top: 10px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+
+.delete{
+  padding: 10px 20px;
+  background-color: Red;
+  font-size: 16px;
+  margin: 8px 0;
+  width: 10%;
+  border: none;
+  cursor: pointer;
+}
+.delete:hover{
+  opacity:0.8;
+}
+.delete input[type=text], input[type=password] {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 10px 20px 15px 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.delete label{
+  color: Black;
+}
+.delete input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.delete .containerlog1 {
+  margin-top: 10px;
+  background-color: #a2aba5;
+  padding-bottom: 60px;
+}
+
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.delete .yesbtn{
+  background-color: rgba(0,0,0,0);
+  font-size: 16px;
+  padding: 8px 20px;
+  margin-top: 10px;
+  margin-left: 14px;
+  border: 3px solid black;
+  cursor: pointer;
+  width: 20%;
+  float: left;
+}
+.yesbtn:hover{
+  opacity: 0.5;
+}
+.delete .nobtn{
+  background-color: rgba(0,0,0,0);
+  font-size: 16px;
+  padding: 8px 20px;
+  margin: 10px 0;
+  border: 3px solid black;
+  cursor: pointer;
+  width: 20%;
+  float: left;
+  margin-left: 10px;
+}
+.nobtn:hover{
+  opacity: 0.5;
+}
+
+.delete h3{
+  font-size: 28px;
+}

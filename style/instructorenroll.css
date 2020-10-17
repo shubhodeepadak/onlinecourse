@@ -1,0 +1,252 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 2px grey;
+}
+.leftnav{
+  width: 25%;
+  line-height: 70px;
+  float: left;
+}
+.leftnav h1{
+  padding-left: 70px;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(14, 5, 150);
+  font-style: normal;
+}
+.leftnav h1:hover{
+  color:orange;
+}
+
+.rightnav{
+  width: 23%;
+  height: 60px;
+  float: right;
+}
+.rightnav a{
+  margin-top: 10px;
+  float: left;
+  font-style: normal;
+  color: black;
+  font-size:18px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown{
+  margin-top: 10px;
+  float: left;
+  overflow: hidden;
+  margin-right: 35px;
+}
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f2edee;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  font-size: 18px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.courses{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 125px;;
+}
+.courses h1{
+  text-align: left;
+  font-size: 60px;
+  margin-left: 50px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+.courses p{
+  margin-top: 15px;
+  margin-left: 50px;
+  font-size: 24px;
+}
+.courses hr{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.courses .column{
+  float: left;
+  margin: 40px;
+  width: 100%;
+  padding: 0 0;
+}
+.courses .column .card{
+  padding: 16px;
+  text-align: left;
+  background-color: #ebf2ee;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+label{
+  color: Black;
+  font-size: 20px;
+  font-weight: bold;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+input[type=submit]{
+  background-color: #12a63a;
+  color: white;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background-color: #047022;
+}
+.category{
+  margin-left: 15px;
+  font-size: 18px;
+}
+.startdate{
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.conbtn{
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  margin-top: 15px;
+  padding: 10px 70px;
+  cursor: pointer;
+  float: left;
+}
+.conbtn:hover{
+  opacity: 0.8;
+}
+.enrollbtn{
+  margin-top: 15px;
+  margin-left: 95px;
+  background-color: blue;
+  border: 1px solid blue;
+  color: white;
+  padding: 10px 26px;
+  cursor: pointer;
+  float: left;
+}
+.enrollbtn:hover{
+  opacity: 0.8;
+}
+
+.below-bar{
+  margin-top: 900px;
+}
+.below-bar .row{
+  margin-left: 60px;
+  margin-top: 40px;
+  color: #0374a3;
+  font-style: normal;
+  font-weight: normal;
+}
+.below-bar .row .column{
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 80px;
+}
+.below-bar .row .column h3{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.below-bar .row .column p{
+  margin-bottom: 15px;
+}
+
+
+.company{
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.company h3{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+.company .get{
+  color: #0374a3;
+}
+.company .column img{
+  margin-left: 140px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.company hr{
+  opacity: 0.3;
+  margin-top: 20px;
+}
+
+
+.lastnav{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.last hr{
+  border-bottom: 10px solid #82dcfa;
+}

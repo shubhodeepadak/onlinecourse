@@ -1,0 +1,185 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  box-shadow: 0 2px grey;
+}
+
+
+.leftnav{
+  width: 25px;
+  line-height: 70px;
+  float: left;
+}
+.leftnav h1{
+  padding-left: 70px;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(14, 5, 150);
+  font-style: normal;
+}
+.leftnav h1:hover{
+  color: #f00d05;
+}
+
+.rightnav{
+  width: 40%;
+  height: 60px;
+  float: right;
+}
+.rightnav a{
+  margin-top: 10px;
+  float: left;
+  font-style: normal;
+  color: black;
+  font-size:18px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown{
+  margin-top: 10px;
+  float: left;
+  overflow: hidden;
+  margin-right: 50px;
+}
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 26px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f2edee;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  font-size: 18px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.course-container{
+  margin-left: 150px;
+  margin-top: 60px;
+  margin-right: 150px;
+}
+.course-container .left{
+  position: absolute;
+  top: 190px;
+  right:220px;
+}
+.course-container h1{
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.course-container h3{
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.card-container{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.card-container h1{
+  font-size: 20px;
+}
+.card-container .nav{
+  float: left;
+  width: 30%;
+  height: 157px;
+}
+.card-container hr{
+  margin-top: 30px;
+  margin-right: 250px;
+}
+article{
+  height: 157px;
+  margin-right: 350px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+article p{
+  margin-top: 5px;
+}
+.delcourse{
+  float: right;
+  padding: 12px 20px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+.delcourse:hover{
+  opacity: 0.9;
+}
+
+
+.programs{
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+.programs h1{
+  text-align: left;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.programs .column{
+  float: left;
+  padding: 20px;
+}
+.programs .column img{
+  margin-left: 10px;
+  margin-top: 10px;
+  box-shadow: 6px 6px grey;
+  cursor: pointer;
+}
+.programs .column img:hover{
+  opacity: 0.7;
+}
+.programs .column a:link{
+  text-decoration: none;
+}
+
+
+.gaps{
+  margin-top: 800px;
+}

@@ -1,0 +1,215 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  background-color: #f5f8fa;
+  box-shadow: 0 2px grey;
+}
+
+
+.leftnav{
+  width: 25px;
+  line-height: 70px;
+  float: left;
+}
+.leftnav h1{
+  padding-left: 70px;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(14, 5, 150);
+  font-style: normal;
+}
+.leftnav h1:hover{
+  color: #f00d05;
+}
+
+.rightnav{
+  width: 38%;
+  height: 60px;
+  float: right;
+}
+.rightnav a{
+  margin-top: 10px;
+  float: left;
+  font-style: normal;
+  color: black;
+  font-size:18px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown{
+  margin-top: 10px;
+  float: right;
+  overflow: hidden;
+  margin-right: 35px;
+}
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f2edee;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  font-size: 18px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.course-container{
+  margin-left: 150px;
+  margin-top: 60px;
+  margin-right: 150px;
+}
+.course-container .left{
+  position: absolute;
+  top: 190px;
+  right:180px;
+}
+.course-container h1{
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.course-container h3{
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.course-container .column{
+  margin-top: 20px;
+  float: left;
+  margin-left: 20px;
+  width: 30%;
+  padding: 0 5px;
+}
+.course-container .column .card{
+  padding: 16px;
+  text-align: center;
+  background-color: #e6e8eb;
+}
+.course-container .column .card .inside{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.course-container .column .card .inside .inside-left{
+  text-align: left;
+  margin-left: 10px;
+}
+.course-container .column .card .inside .inside-left p{
+  margin-top: 10px;
+}
+
+.course-container .column .card .inside .inside-left label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.course-container .column .card .inside .inside-left input[type=text], input[type=password] {
+  width: 70%;
+  padding: 12px;
+  border-radius: 15px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin: 5px 0 11px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.course-container .column .card .inside .inside-left input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+
+
+.btn-group{
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
+.conbtn{
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  margin-top: 15px;
+  padding: 10px 70px;
+  cursor: pointer;
+  border-radius: 10px;
+  float: left;
+}
+.conbtn:hover{
+  opacity: 0.8;
+}
+.delbtn{
+  margin-top: 15px;
+  margin-right: 2px;
+  background-color: #e80b05;
+  border: 1px solid red;
+  color: black;
+  padding: 10px 26px;
+  cursor: pointer;
+  float: right;
+  border-radius: 10px;
+}
+.delbtn:hover{
+  opacity: 0.8;
+}
+.enrollbtn{
+  margin-top: 15px;
+  float: left;
+  background-color: #0449b8;
+  border: 2px solid #0449b8;
+  color: white;
+  padding: 10px 52px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.enrollbtn:hover{
+  opacity: 0.8;
+}
+
+.gap{
+  margin-top: 800px;
+}

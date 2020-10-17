@@ -1,0 +1,48 @@
+.text{
+  margin-top: 700px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.text h1{
+  padding-bottom: 15px;
+}
+.text h3{
+  padding-bottom: 15px;
+}
+.text hr{
+  margin-bottom: 20px;
+}
+
+
+.card-container{
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+.card-container .nav{
+  float: left;
+  width: 30%;
+  height: 157px;
+}
+.card-container hr{
+  margin-top: 30px;
+  margin-right: 250px;
+}
+article{
+  height: 157px;
+  margin-right: 350px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+article p{
+  margin-top: 5px;
+}
+.enroll{
+  float: right;
+  padding: 12px 20px;
+  cursor: pointer;
+  background-color: #3f78fc;
+  color: white;
+}
+.enroll:hover{
+  opacity: 0.9;
+}

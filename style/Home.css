@@ -1,0 +1,343 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.navbar{
+  width: 100%;
+  height: 45px;
+  background-color: white;
+}
+
+.leftnav{
+  width: 25%;
+  line-height: 70px;
+  float: left;
+}
+.leftnav h1{
+  padding-top: 1px;
+  padding-left: 100px;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(14, 5, 150);
+  font-style: normal;
+}
+.leftnav h1:hover{
+  color: #f00d05;
+}
+
+.rightnav{
+  width: 70%;
+  height: 60px;
+  float: right;
+}
+.rightnav ul{
+  margin-left: 250px;
+}
+.rightnav ul li{
+  font-style: normal;
+  display: inline-block;
+  color: white;
+  list-style: none;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 70px;
+  margin-left: 50px;
+}
+.rightnav ul li a:link{
+  text-decoration: none;
+}
+.rightnav ul li a{
+  color: Black;
+}
+.rightnav ul li a:hover{
+  color: #f00d05;
+}
+.rightnav ul li a:active{
+  color: blue;
+}
+
+.bgcontainer{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bgimage{
+  background: url(../images/background_image22.jpg);
+  background-size: 100%;
+  width: 1518px;
+  height: 600px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: 0 25px;
+}
+
+.text{
+  position: absolute;
+  top: 55px;
+  left: 70px;
+  text-align: left;
+}
+
+.text h1{
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.th1{
+  margin-left: 200px;
+}
+.in{
+  text-transform: uppercase;
+  color: rgb(247, 162, 2);
+}
+.text h2{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text h3{
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.text p{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+.btn2 {
+  background-color: white;
+  border: 3px solid white;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 40px;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 100px;
+  cursor: pointer;
+  color: Black;
+}
+.btn2:hover {
+  opacity: 0.5;
+}
+
+.btn3 {
+  background-color: rgba(0,0,0,0);
+  border: 3px solid white;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 40px;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 100px;
+  cursor: pointer;
+  color: white;
+}
+.btn3:hover{
+  opacity: 0.5;
+}
+
+
+.about{
+  margin-left: 60px;
+}
+
+@font-face{
+  font-family: Jomolhari-Regular;
+  src: url(fonts/Jomolhari-Regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face{
+  font-family: PlayfairDisplay;
+  src: url(fonts/PlayfairDisplay-Black.ttf);
+  src: url(fonts/PlayfairDisplay-BlackItalic.ttf);
+  src: url(fonts/PlayfairDisplay-Bold.ttf);
+  src: url(fonts/PlayfairDisplay-BoldItalic.ttf);
+  src: url(fonts/PlayfairDisplay-Italic.ttf);
+  src: url(fonts/PlayfairDisplay-Regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+.about h1{
+  margin-top: 60px;
+  font-size: 60px;
+}
+.about hr{
+  size: 20px;
+}
+.about p{
+  font-family: monospace;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+
+.container-sign p{
+ font-weight: normal;
+ font-style: normal;
+ font-size: 16px;
+}
+
+
+.programs{
+  margin-left: 60px;
+  margin-top: 80px;
+}
+.programs h1{
+  margin-left: 250px;
+  font-size: 50px;
+  font-weight: normal;
+}
+.programs .column{
+  float: left;
+  padding: 20px;
+}
+.programs .column img{
+  margin-left: 20px;
+  margin-top: 10px;
+  box-shadow: 6px 6px grey;
+  cursor: pointer;
+}
+.programs .column img:hover{
+  opacity: 0.9;
+}
+
+
+.industry{
+  margin-left: 60px;
+  margin-top: 450px;
+}
+.industry h1{
+  margin-left: 70px;
+  font-size: 40px;
+  font-weight: normal;
+}
+.industry .column img{
+  margin-left: 140px;
+  margin-top: 50px;
+
+}
+
+
+.instructors{
+  margin-left: 60px;
+  margin-top: 100px;
+}
+.instructors h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.instructors .column{
+  float: left;
+  margin-left: 28px;
+  width: 20%;
+  padding: 0 10px;
+}
+.instructors .column .card{
+  padding: 16px;
+  text-align: center;
+  background-color: #e6e8eb;
+  cursor: pointer;
+}
+.instructors .column .card .inside{
+  margin-top: 10px;
+  font-size: 20px;
+  box-shadow: 5px 5px #2b2e33;
+}
+
+
+.objectives{
+  margin-left: 60px;
+  margin-top: 450px;
+}
+.objectives h1{
+  font-size: 55px;
+  font-weight: normal;
+}
+.objectives .inside{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.objectives .inside li{
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+
+.contact{
+  margin-left: 60px;
+  margin-top: 100px;
+}
+.contact h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+.contact .column{
+  float: left;
+  margin-left: 120px;
+  width: 20%;
+  padding: 0 10px;
+}
+.contact .column .card{
+  padding: 16px;
+  text-align: center;
+  background-color: #e6e8eb;
+  cursor: pointer;
+}
+.contact .column .card .inside{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.contact .column .card .inside p{
+  margin-top: 10px;
+}
+
+
+.below-bar{
+  background: #e1e3fc;
+  margin-top: 150px;
+}
+.below-bar .inside{
+  margin-left: 60px;
+}
+.below-bar .inside h1{
+  padding-top: 50px;
+}
+.below-bar .inside .row{
+  margin-top: 30px;
+}
+.below-bar .inside .row .column{
+  margin-top: 10px;
+  float: left;
+  width: 31.3%;
+  padding: 10px;
+  height: 80px;
+}
+.below-bar .inside .row .column p{
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+
+.lastnav{
+  width: 100%;
+  height: 40px;
+  background-color: #82dcfa;
+ /* text-align: left;*/
+  font-size: 20px;
+  padding-top: 15px;
+}
+.lastnav .inside{
+  text-align: center;
+}
